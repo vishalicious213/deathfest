@@ -5,14 +5,14 @@
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: var(--darkgrey);
-    margin: 0;
-
     --red: #961719;
     --lightred: #ab4547;
     --grey: #858585;
     --darkgrey: #404040;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--darkgrey);
+    margin: 0;
 }
 
 /* Flex containers */
@@ -28,15 +28,15 @@ body {
 /* Typography */
 
 h1 {
-    color: var(--red);
-    font-size: 2.5rem;
-    font-weight: 400;
-}
-
-h2 {
     color: var(--darkgrey);
     font-size: 2.25rem;
     margin: .16em 0;
+}
+
+h2 {
+    color: var(--red);
+    font-size: 2.5rem;
+    font-weight: 400;
 }
 
 h3 {
@@ -119,7 +119,7 @@ input {
 
 input:focus {
     outline: none;
-    border-color: #8A71EC;
+    border-color: var(--grey);
     background-color: #E6E8EC;
 }
 
@@ -186,11 +186,11 @@ footer img:hover {
         padding-top: 0;
     }
 
-    h1 {
+    h2 {
         font-size: 5vw;
     }
 
-    h2 {
+    h1 {
         font-size: 2.625rem;
     }
 }
