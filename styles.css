@@ -73,7 +73,7 @@ p {
 .intro {
     justify-content: space-between;
     text-align: center;
-    min-height: 250px;
+    min-height: 100vh;
     color: #fff;
     background: black url("/img/mdf-2024.jpg");
     background-position: center;
