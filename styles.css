@@ -29,6 +29,7 @@ h1 {
 }
 
 h2 {
+    color: #404040;
     font-size: 2.25rem;
     margin: .16em 0;
 }
@@ -91,7 +92,6 @@ p {
 
 .img-main {
     width: 90%;
-    /* border-radius: 50%; */
 }
 
 .main-content p,
