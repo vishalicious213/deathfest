@@ -38,6 +38,7 @@ h2 {
     font-size: 2.5rem;
     font-weight: 400;
     margin: .5em 0 .25em;
+    text-align: center;
 }
 
 h3 {
@@ -194,7 +195,7 @@ footer img:hover {
 
     h2 {
         margin: 0;
-        font-size: calc(2rem + 1.25vw);
+        font-size: calc(2rem + 1vw);
     }
 
     h3 {
