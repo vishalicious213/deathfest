@@ -29,7 +29,6 @@ h1 {
     color: var(--red);
     font-size: 2.5rem;
     font-weight: 400;
-    /* text-shadow: 0 2px #816fca; */
 }
 
 h2 {
@@ -45,18 +44,10 @@ h3 {
     margin: .16em 0;
 }
 
-/* .beta-text { 
-    font-weight: 900;
-} */
-
 .subheading {
     color: var(--red);
     font-weight: 900;
     margin-bottom: 1em;
-}
-
-/* .beta-text, */
-.subheading {
     text-transform: uppercase;
 }
 
@@ -68,15 +59,6 @@ p {
 a {
     text-decoration: none;
 }
-
-/* .top-text {
-    font-size: 0.875rem;
-    font-weight: 900;
-    padding-top: 0.25em;
-    border-top: 5px solid;
-    margin: 0 auto;
-    order: -1;
-} */
 
 .fine-print {
     font-size: 0.75rem;
@@ -165,7 +147,6 @@ input:focus {
 @media screen and (min-width: 576px) {
     body {
         display: flex;
-        /* align-items: center; */
     }
 
     .intro,
@@ -189,8 +170,4 @@ input:focus {
     h2 {
         font-size: 2.625rem;
     }
-
-    /* .beta-text {
-        font-size: 1.25rem;
-    } */
 }
