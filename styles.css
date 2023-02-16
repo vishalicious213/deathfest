@@ -75,8 +75,10 @@ p {
     text-align: center;
     min-height: 250px;
     color: #fff;
-    background: #9480e4 url("/images/intro-bg.png");
-    background-size: cover;
+    background: black url("/img/mdf-2024.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     padding-bottom: 1.5em;
 }
 
