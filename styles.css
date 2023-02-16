@@ -10,6 +10,7 @@ body {
     margin: 0;
 
     --red: #961719;
+    --lightred: #ab4547;
 }
 
 /* Flex containers */
@@ -137,13 +138,13 @@ input:focus {
 
 .btn-primary {
     margin-top: 1em;
-    background-color: #8A71EC;
+    background-color: var(--red);
     color: #fff;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #B7A7F6;
+    background-color: var(--lightred);
     cursor: pointer;
 }
 
