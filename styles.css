@@ -29,7 +29,7 @@ body {
 
 h1 {
     color: var(--darkgrey);
-    font-size: 2.25rem;
+    font-size: 2rem;
     margin: .16em 0;
 }
 
@@ -86,7 +86,7 @@ a {
 
 .main-content {
     align-items: center;
-    padding: 2.5em 0 1.5em;
+    padding: 2.5em 1em 1.5em;
 }
 
 .img-main {
@@ -186,11 +186,11 @@ footer img:hover {
         padding-top: 0;
     }
 
-    h2 {
-        font-size: 5vw;
-    }
-
     h1 {
         font-size: 2.625rem;
+    }
+
+    h2 {
+        font-size: 5vw;
     }
 }
