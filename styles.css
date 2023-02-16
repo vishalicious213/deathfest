@@ -6,12 +6,13 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #404040;
+    color: var(--darkgrey);
     margin: 0;
 
     --red: #961719;
     --lightred: #ab4547;
     --grey: #858585;
+    --darkgrey: #404040;
 }
 
 /* Flex containers */
@@ -33,7 +34,7 @@ h1 {
 }
 
 h2 {
-    color: #404040;
+    color: var(--darkgrey);
     font-size: 2.25rem;
     margin: .16em 0;
 }
