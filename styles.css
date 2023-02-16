@@ -8,6 +8,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
     margin: 0;
+
+    --red: #961719;
 }
 
 /* Flex containers */
@@ -39,7 +41,7 @@ h2 {
 }
 
 .subheading {
-    color: #575757;
+    color: var(--red);
     font-weight: 900;
     margin-bottom: .5em;
 }
