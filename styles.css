@@ -85,6 +85,7 @@ a {
 .main-content {
     align-items: center;
     padding-top: 2.5em;
+    position: relative;
 }
 
 .img-main {
@@ -142,9 +143,27 @@ input:focus {
     cursor: pointer;
 }
 
+/* Footer */
+
 footer {
-    /* background-color: black; */
+    background-color: #404040;
+    position: absolute;
+    bottom: 1rem;
     display: flex;
+    justify-content: space-around;
+    min-width: 14rem;
+    padding: .5rem 2rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+footer a {
+    display: block;
+    /* outline: 1px solid red; */
+}
+
+footer img:hover {
+    transform: scale(1.1);
 }
 
 /* Media queries */
