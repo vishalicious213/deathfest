@@ -142,6 +142,10 @@ input:focus {
     cursor: pointer;
 }
 
+footer {
+    background-color: black;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 576px) {
