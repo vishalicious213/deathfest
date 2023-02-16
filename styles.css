@@ -29,7 +29,8 @@ body {
 
 h1 {
     color: var(--darkgrey);
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: calc(.9rem + 4vw);
     margin: .16em 0;
 }
 
@@ -187,7 +188,8 @@ footer img:hover {
     }
 
     h1 {
-        font-size: 2.625rem;
+        /* font-size: 2.625rem; */
+        font-size: calc(1rem + 2vw);
     }
 
     h2 {
