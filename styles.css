@@ -189,10 +189,15 @@ footer img:hover {
     }
 
     h1 {
-        font-size: calc(1rem + 2vw);
+        font-size: calc(1rem + 1.25vw);
     }
 
     h2 {
-        font-size: 5vw;
+        margin: 0;
+        font-size: calc(2rem + 1.25vw);
+    }
+
+    h3 {
+        font-size: calc(1.5rem + .75vw);
     }
 }
