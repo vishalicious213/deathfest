@@ -8,13 +8,9 @@ Original design from Scrimba:
 
 ![](/img/design.jpg)
 
-My design - desktop:
+My design:
 
-![](/img/design-desktop.jpg)
-
-My design - mobile:
-
-![](/img/design-mobile.jpg)
+![](/img/redesign.jpg)
 
 ## CSS concepts
 
