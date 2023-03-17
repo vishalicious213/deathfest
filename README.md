@@ -8,6 +8,14 @@ Original design from Scrimba:
 
 ![](/img/design.jpg)
 
+My design - desktop:
+
+![](/img/design-desktop.jpg)
+
+My design - mobile:
+
+![](/img/design-mobile.jpg)
+
 ## CSS concepts
 
 - CSS variables
